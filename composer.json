@@ -1,0 +1,35 @@
+{
+  "name": "yneet/laravel-collection-select2",
+  "description": "A set of useful Laravel collection macros for Select2",
+  "keywords": [
+    "Laravel",
+    "Collection",
+    "Macros",
+    "Select2"
+  ],
+  "homepage": "https://github.com/yneet/laravel-collection-select2",
+  "require": {
+    "php": "^7.4",
+    "illuminate/support": "^7.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yneet",
+      "email": "contact@yneet.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yneet\\CollectionSelect2\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Yneet\\CollectionSelect2\\CollectionSelect2ServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
